@@ -13,6 +13,231 @@
     <title>Document</title>
   </head>
   <body>
-    <h1 class="bg-red-500 text-2xl main-heading my-container">hello world</h1>
+    <!-- ============================= navbar ============================== -->
+    <nav class="bg-white w-full">
+      <div class="my-container">
+        <div class="flex justify-between py-4">
+          <div class="flex items-center justify-center">
+            <img src="./images/logo (2).png" alt="" />
+            <h2 class="orange-text text-[1.25rem] font-semibold">Quriarbox</h2>
+          </div>
+          <div class="flex justify-center items-center gap-11">
+            <div class="flex">
+              <ul
+                class="flex font-ral text-[1rem] font-bold text-[#817382] gap-[1.60rem]"
+              >
+                <li
+                  class="hover:text-[#F95C19] hover:font-extrabold cursor-pointer transition-colors duration-200 ease-out"
+                >
+                  Home
+                </li>
+                <li
+                  class="hover:text-[#F95C19] hover:font-extrabold cursor-pointer transition-colors duration-200 ease-out"
+                >
+                  Our services
+                </li>
+                <li
+                  class="hover:text-[#F95C19] hover:font-extrabold cursor-pointer transition-colors duration-200 ease-out"
+                >
+                  About us
+                </li>
+                <li
+                  class="hover:text-[#F95C19] hover:font-extrabold cursor-pointer hover:transition-all delay-200 ease-linear"
+                >
+                  What's new
+                </li>
+              </ul>
+            </div>
+            <div class="flex gap-3">
+              <div
+                class="w-[3.3rem] h-[3.3rem] bg-[#ffaf0f40] rounded-md flex items-center justify-center cursor-pointer"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="2rem"
+                  viewBox="0 -960 960 960"
+                  width="2rem"
+                  fill="#FFAF0F"
+                >
+                  <path
+                    d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"
+                  />
+                </svg>
+              </div>
+              <button
+                class="bg-[#FFE4D9] py-3 px-5 orange-text text-[1.25rem] cursor-pointer rounded-md"
+              >
+                Contact us
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ============================= navbar ============================== -->
+    <!-- ============================= hero section ============================== -->
+    <section class="relative">
+      <div class="my-container">
+        <div class="flex mt-[16rem] mb-[20rem]">
+          <div class="w-5/12">
+            <div class="flex-col flex items-start justify-center">
+              <h1 class="main-heading mb-4">
+                <span>A trusted provider of </span
+                ><span class="font-extrabold">courier services.</span>
+              </h1>
+              <p class="text-[1.25rem] text-[#4D4D4D] font-normal mb-11 pe-48">
+                We deliver your products safely to your home in a reasonable
+                time.
+              </p>
+              <button
+                class="text-[1.25rem] text-white font-bold py-3 px-5 bg-primary font-ox flex items-center justify-center rounded-md"
+              >
+                GET STARTED
+                <svg
+                  class="ps-1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="1.5rem"
+                  viewBox="0 -960 960 960"
+                  width="1.5rem"
+                  fill="#FFFFFF"
+                >
+                  <path
+                    d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="absolute top-[-20%] right-[13%]">
+        <img class="" src="./images/banner.png" alt="" />
+      </div>
+    </section>
+    <!-- ============================= hero section ============================== -->
+    <!-- ============================= services section ============================== -->
+    <section>
+      <div class="my-container">
+        <!-- servises heading  -->
+        <div class="flex flex-col justify-center items-center gap-2.5 py-20">
+          <h2 class="orange-text">SERVICES</h2>
+          <h2 class="sub-heading">Our services for you</h2>
+        </div>
+        <!-- services all cards box  -->
+        <div class="flex justify-between items-center mb-44 gap-6">
+          <!-- services single card  -->
+          <div class="flex flex-col px-14 pt-16 pe-12 pb-12 bg-white">
+            <!-- servixes icon  -->
+            <div class="relative flex flex-col self-center mb-8">
+              <span class="bg-[#ffaf0f99] rounded-full w-14 h-14"></span>
+              <img
+                src="./images/services1.png"
+                alt=""
+                class="absolute top-1/2"
+              />
+            </div>
+            <!-- services card heading  -->
+            <h3
+              class="self-center text-[#464558] font-extrabold text-[1.5rem] mb-8"
+            >
+              Business Services
+            </h3>
+            <!-- services card paragraph  -->
+            <p class="font-normal text-[#7B7A8B] text-[1rem] pe-6 mb-10">
+              We give you complete reliable delivery for your company. We will
+              take full responsibility of the deliveries.
+            </p>
+            <!-- services card menu  -->
+            <ul
+              class="flex flex-col gap-3 pb-14 font-normal text-[#7B7A8B] text-[1rem] list-disc marker:text-primary ms-[1.125rem]"
+            >
+              <li class="">Corporate goods</li>
+              <li class="">Shipment</li>
+              <li class="">Accesories</li>
+            </ul>
+            <!-- services card btn  -->
+            <button
+              class="py-3 px-24 bg-white orange-text text-[1.25rem] border-primary border-solid border-2 rounded-md cursor-pointer hover:bg-primary hover:text-white transition-colors ease-in-out duration-200"
+            >
+              Learn more
+            </button>
+          </div>
+          <div class="flex flex-col px-14 pt-16 pe-12 pb-12 bg-white">
+            <!-- servixes icon  -->
+            <div class="relative flex flex-col self-center mb-8">
+              <span class="bg-[#ffaf0f99] rounded-full w-14 h-14"></span>
+              <img
+                src="./images/services2.png"
+                alt=""
+                class="absolute top-1/2"
+              />
+            </div>
+            <!-- services card heading  -->
+            <h3
+              class="self-center text-[#464558] font-extrabold text-[1.5rem] mb-8"
+            >
+              Statewide Services
+            </h3>
+            <!-- services card paragraph  -->
+            <p class="font-normal text-[#7B7A8B] text-[1rem] pe-6 mb-10">
+              Offering home delivery around the city, where your products will
+              be at your doorstep within 48-72 hours.
+            </p>
+            <!-- services card menu  -->
+            <ul
+              class="flex flex-col gap-3 pb-14 font-normal text-[#7B7A8B] text-[1rem] list-disc marker:text-primary ms-[1.125rem]"
+            >
+              <li class="">Personal items</li>
+              <li class="">Percels</li>
+              <li class="">Documents</li>
+            </ul>
+            <!-- services card btn  -->
+            <button
+              class="py-3 px-24 bg-white orange-text text-[1.25rem] border-primary border-solid border-2 rounded-md cursor-pointer hover:bg-primary hover:text-white transition-colors ease-in-out duration-200"
+            >
+              Learn more
+            </button>
+          </div>
+          <div class="flex flex-col px-14 pt-16 pe-12 pb-12 bg-white">
+            <!-- servixes icon  -->
+            <div class="relative flex flex-col self-center mb-8">
+              <span class="bg-[#ffaf0f99] rounded-full w-14 h-14"></span>
+              <img
+                src="./images/services3.png"
+                alt=""
+                class="absolute top-1/2"
+              />
+            </div>
+            <!-- services card heading  -->
+            <h3
+              class="self-center text-[#464558] font-extrabold text-[1.5rem] mb-8"
+            >
+              Personal Services
+            </h3>
+            <!-- services card paragraph  -->
+            <p class="font-normal text-[#7B7A8B] text-[1rem] pe-6 mb-10">
+              You can trust us to safely deliver your most sensitive documents
+              to the specific area in a short time.
+            </p>
+            <!-- services card menu  -->
+            <ul
+              class="flex flex-col gap-3 pb-14 font-normal text-[#7B7A8B] text-[1rem] list-disc marker:text-primary ms-[1.125rem]"
+            >
+              <li class="">Gifts</li>
+              <li class="">Package</li>
+              <li class="">Documents</li>
+            </ul>
+            <!-- services card btn  -->
+            <button
+              class="py-3 px-24 bg-white orange-text text-[1.25rem] border-primary border-solid border-2 rounded-md cursor-pointer hover:bg-primary hover:text-white transition-colors ease-in-out duration-200"
+            >
+              Learn more
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ============================= services section ============================== -->
   </body>
 </html>
